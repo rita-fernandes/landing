@@ -1,0 +1,117 @@
+body {
+	margin: 0px;
+	font-family: Roboto, sans-serif;
+	line-height:  24px;
+}
+
+header {
+	text-align: center;
+	padding: 80px 10px;
+	background-color: lightblue;
+	background-image: url(KYOaJ7.jpg);
+	background-position: center;
+	color: #ffffff;
+}
+
+div{
+	max-width: 600px;
+	margin: 40px auto;
+	padding: 10px;
+}
+
+footer {
+	text-align: center;
+	padding: 5px;
+	background-color: #1a1a1a;
+}
+
+/*
+
+Passei estas duas partes para baixo para dentro da classe lista-links
+
+a {
+	color: #EFBBA1;
+}
+
+a:hover {
+	color: #ffefe8;
+}
+*/
+
+.purple {
+	background-color: purple;
+}
+
+.color-white {
+	color: white;
+	background-color: red;
+}
+
+.botao {
+	background-color: #1a1a1a;
+
+	/* Normalmente, o padding fica melhor com uma altura inferior a largura */
+
+	padding: 10px 20px;
+	border-radius: 24px;
+	text-decoration: none;
+	
+	/* ??
+	Nao esta a dar
+	*/
+
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.botao:hover {
+	color: #d9d9d9;
+}
+
+.lista-links {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.lista-links a {
+	color: #ffffff;
+}
+
+.lista-links a:hover {
+	color: #d9d9d9;
+}
+
+.lista-links li {
+	display: inline;
+	
+	/* ??
+	Nao esta a dar
+	*/
+
+	margin: 0 10 px;
+}
+
+/*
+
+h1 {
+	font-family: Lobster, Arial, sans-serif;
+*/	
+	/* Comecar em 16 e ir de 8 em 8 */
+/*	
+	font-size: 48px;
+	color: #164455;
+	text-shadow: 2px 2px 4px #ffefe8;
+}
+
+*/
+
+h1 {
+	font-family: Montserrat, Arial, sans-serif;
+	font-size: 48px;
+	color: #ffffff;
+}
+
+h2 {
+	font-family: Montserrat, Arial, sans-serif;
+	font-size: 24px;
+}
